@@ -1,0 +1,14 @@
+const house=['room1','room2','room3'];
+house.pop();
+console.log(house);
+house.push('room4');
+house.shift(2);
+console.log(house);
+house.unshift('bathroom');
+house[0] = 'roomhouse';
+house[house.length] = "suhadroom";
+//delete house[2];
+console.log(house);
+const house2 = ['room5','room6','roo7'];
+const myHouse = house.concat(house2);
+console.log(myHouse);
