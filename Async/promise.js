@@ -66,33 +66,29 @@
 // .catch() ---second most probably used...
 // .finally() ---standing coding practice
 
-let promise = new Promise(function (resolve, reject) {
-  //this promise function is the executor function
-  let value = "water";
-  resolve(value);
-});
-let promiseError= new Promise(function(resolve,reject){
-                    setTimeout(function(){
-                      reject(new Error("jack fell down and......."));
-                    },2000)
-})
+// let promise = new Promise(function (resolve, reject) {
+//   //this promise function is the executor function
+//   let value = "water";
+//   resolve(value);
+// });
+// let promiseError= new Promise(function(resolve,reject){
+//                     setTimeout(function(){
+//                       reject(new Error("jack fell down and......."));
+//                     },2000)
+// })
 
-const grandParentsCooking = () => {
-  promise.then(function (result) {
-    console.log(`cooking with ${result}`);
-  });
-};
+// const grandParentsCooking = () => {
+//   promise.then(function (result) {
+//     console.log(`cooking with ${result}`);
+//   });
+// };
 
-const grandParentsNotCooking = () => {
-  promiseError.catch(function(error){
-    console.log(`not accepted proposal ${error.message}`)
-  })
-}
-grandParentsNotCooking();
-
-
-
+// const grandParentsNotCooking = () => {
+//   promiseError.catch(function(error){
+//     console.log(`not accepted proposal ${error.message}`)
+//   })
+// }
+//grandParentsNotCooking();
+//grandParentsCooking();
 
 
-
-grandParentsCooking();
