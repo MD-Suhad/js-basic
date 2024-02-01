@@ -29,7 +29,7 @@ class LionsSectionRed{
 const lions = class LionsSectionRed{
   constructor(teacher, student){
     this.teacher = "Book Teach And  Maintaning";
-    this.student = "Book Reading & Learning";
+    this.student = " Learning";
   }
 };
 console.log(this.teacher, this.student);
