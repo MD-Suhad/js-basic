@@ -13,5 +13,3 @@ function setInput(){
 const processChange = debounce(() =>{
    setInput();
 })
-console.log(setInput());
-//console.log("ProcessChange",processChange);
