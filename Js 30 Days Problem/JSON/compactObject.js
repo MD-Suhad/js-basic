@@ -33,7 +33,7 @@ var compactObject = function(obj){
    return obj;
 }
 
-compactObject()
+compactObject();
 
 
 
