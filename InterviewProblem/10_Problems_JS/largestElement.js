@@ -5,4 +5,4 @@ let n = 1;
 
 const nthLargest = arr[arr.length-n]
 
-console.log(nthLargest);
+//console.log(nthLargest);
